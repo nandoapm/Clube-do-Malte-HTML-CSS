@@ -51,11 +51,11 @@ body {
 /* Seção 1
 ====================================================*/
 .jumbo-bg-1 {
-  background-image: url(/bg-secao-1.jpg);
+  background-image: url(../img/bg-secao-1.jpg);
   background-repeat: no-repeat;
-  background-size: 100%, 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-position: 100%;
+  margin: 0px;
+  margin-top: -30px;
 }
 
 .secao-1 {
@@ -96,9 +96,9 @@ body {
   z-index: 1;
 }
 .grf-1 img {
-  width: 100px;
-  height: 410px;
-  margin-top: 50px;
+  width: 130px;
+  height: 480px;
+  margin-top: 35px;
   transform: rotate(-10deg);
 }
 
@@ -130,7 +130,7 @@ body {
 /* Seção 2
 ====================================================*/
 .jumbo-bg-2 {
-  background-image: url(./bg-secao-2.jpg);
+  background: url(../img/bg-secao-2.jpg);
   background-repeat: repeat;
   background-size: 100%, 100%;
   padding-top: 5px;
@@ -184,7 +184,7 @@ body {
 .box-3  {
   width: 300px;
   height: 300px;
-  background-image: url(bg-secao-2.jpg);
+  background-image: url(../img/bg-secao-2.jpg);
   position: relative;
   left: 220px;
   margin-top: 100px;
@@ -200,7 +200,7 @@ body {
 .box-4 {
   width: 300px;
   height: 300px;
-  background-image: url(bg-secao-2.jpg);
+  background-image: url(../img/bg-secao-2.jpg);
   position: relative;
   left: 150px;
   margin-top: -100px;
@@ -353,6 +353,12 @@ body {
 ========================================*/
   /*Extra small devices (portrait phones, less than 576px)*/
   @media (max-width: 575px) {
+  .jumbo-bg-1 {
+    background-image: url(../img/bg-secao-sm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+  }
+
   .geladeira {
     display: none;
   }
@@ -577,6 +583,12 @@ body {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
+  .jumbo-bg-1 {
+    background-image: url(../img/bg-secao-sm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+  }
+
   .geladeira {
     display: none;
   }
@@ -833,11 +845,9 @@ body {
   }
 
   .jumbo-bg-1 {
-    background-image: url(./bg-secao-1.jpg);
+    background-image: url(../img/bg-secao-sm.jpg);
     background-repeat: no-repeat;
     background-size: 100%, 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
   }
   
   .secao-1 {
