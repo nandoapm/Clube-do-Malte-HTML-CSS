@@ -1,0 +1,1088 @@
+/* Geral
+====================================================*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ffffff;
+}
+/* Header
+====================================================*/
+#logo {
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+
+#input {
+  font-size: 10px;
+  width: 300px;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.login {
+  width: 150px;
+}
+
+.login img {
+  margin-right: 5px;
+}
+
+.navbar-toggler {
+  background: #b1e80d;
+}
+
+.busca {
+  width: 30px;
+  background: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.busca img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Seção 1
+====================================================*/
+.jumbo-bg-1 {
+  background-image: url(/bg-secao-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.secao-1 {
+  width: 350px;
+  height: 100%;
+  margin-left: -100px;
+}
+
+.box-1 img {
+  width: 130px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.box-1 h5 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn {
+  width: 230px;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+
+.btn:hover {
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.grf-1 {
+  width: 100px;
+  height: 300px;
+  display: block;
+  position: relative;
+  right: 150px;
+  z-index: 1;
+}
+.grf-1 img {
+  width: 100px;
+  height: 410px;
+  margin-top: 50px;
+  transform: rotate(-10deg);
+}
+
+.grf-2 {
+  width: 100px;
+  height: 300px;
+  display: block;
+  position: relative;
+  right: 170px;
+  z-index: 1;
+}
+
+.grf-2 img {
+  width: 120px;
+  height: 480px;
+  margin-top: 25px;
+  transform: rotate(-3deg);
+}
+
+/* Divisor
+====================================================*/
+.divisor {
+  width: 100%;
+  height: 50px;
+  margin-top: -35px;
+  background-color: black;
+}
+
+/* Seção 2
+====================================================*/
+.jumbo-bg-2 {
+  background-image: url(./bg-secao-2.jpg);
+  background-repeat: repeat;
+  background-size: 100%, 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#secao-2 img{
+  width: 100%;
+  height: 100%;
+  margin-top: -50px;
+}
+
+.card-img-overlay {
+  width: 280px;
+  height: 280px;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: rgba(10,23,55,0.8);
+  left: 400px;
+  margin-top: 200px;
+}
+
+.card {
+  border: none;
+  width: 900px;
+  margin: 0px auto;
+}
+
+.card-img-sm, .img-sm, .desc-1, .desc-2 {
+  display: none;
+}
+
+/* Seção 3
+====================================================*/
+#secao-3 {
+  margin: 50px;
+}
+.box-2 {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  padding: 25px;
+  text-align: left;
+  font-size: 15px;
+  margin-top: -65px;
+  left: 140px;
+  color: #ffffff;
+  background-color: rgba(0,39,83,0.9);
+}
+
+.box-3  {
+  width: 300px;
+  height: 300px;
+  background-image: url(bg-secao-2.jpg);
+  position: relative;
+  left: 220px;
+  margin-top: 100px;
+  
+}
+
+.box-3 img {
+  position: relative;
+  margin-top: -30px;
+  left: -30px;
+}
+
+.box-4 {
+  width: 300px;
+  height: 300px;
+  background-image: url(bg-secao-2.jpg);
+  position: relative;
+  left: 150px;
+  margin-top: -100px;
+}
+
+.box-4 img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-top: -15px;
+  left: 15px;  
+}
+
+/* Seção 4
+====================================================*/
+.secao-4 {
+  width: 800px;
+  height: 310px;
+  margin: 0px auto;
+  border: 1px solid #000000;
+}
+
+.grfs-1 {
+  height: 380px;
+  position: relative;
+  margin-top: -30px;
+  left: 65px;
+  
+}
+
+.grfs-2 {
+  height: 400px;
+  position: relative;
+  margin-top: -40px;
+  left: 55px;
+}
+
+.grfs-3 {
+  height: 400px;
+  position: relative;
+  margin-top: -40px;
+  left: 45px;;
+  z-index: 1;
+}
+
+.grfs-4 {
+  height: 380px;
+  position: relative;
+  margin-top: -35px;
+  left: 30px;
+}
+
+.selo-1 {
+  position: relative;
+  left: 370px;
+  margin-top: -550px;
+}
+
+.selo-2 {
+  position: relative;
+  left: 300px;
+  margin-top: -400px;
+}
+
+/* Seção 5
+========================================*/
+#card-1 {
+  margin-left: 100%;
+}
+.card-conteudo-1 {
+  width: 330px;
+  height: 230px;
+  padding: 20px;
+  padding-left: 30px;
+  border: 1px solid #000000;
+}
+
+.card-conteudo-1 h4 {
+  margin-top: -240px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.card-conteudo-1 p {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.card-conteudo-1 .btn {
+  margin-top: 3px;
+}
+
+.card-conteudo-1 .btn:hover {
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.card-conteudo-2 {
+  width: 330px;
+  height: 230px;
+  padding: 20px;
+  padding-right: 50px;
+  border: 1px solid #000000;
+  text-align: right;
+}
+
+.card-conteudo-2 h4 {
+  margin-top: -240px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.card-conteudo-2 p {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.card-conteudo-2 .btn {
+  margin-top: 1px;
+}
+
+.card-conteudo-2 .btn:hover {
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.lager {
+  width: 100px;
+  height: 400px;
+  position: relative;
+  margin-top: -160px;
+  right: 100px;
+}
+
+.light {
+  width: 90px;
+  height: 400px;
+  position: relative;
+  margin-top: -160px;
+  left: 100px;
+}
+
+/* Media Queries
+========================================*/
+  /*Extra small devices (portrait phones, less than 576px)*/
+  @media (max-width: 575px) {
+  .geladeira {
+    display: none;
+  }
+
+  .input {
+    display: none;
+  }
+
+  .user {
+    display: none;
+  }
+
+  .cadastro {
+    display: none;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    left: 220px;
+  }
+  
+  .box-1 img {
+    width: 150px;
+    height: 180px;
+    margin-bottom: 15px;
+    align-items: right;
+    margin-bottom: 120px;
+    position: relative;
+    left: 90px;
+    margin-top: 80px;
+  }
+
+  .box-1 h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .grf-1 {
+    width: 60px;
+    height: 250px;
+    display: block;
+    position: relative;
+    left: 80px;
+    z-index: 1;
+    margin-top: -30px;
+  }
+
+  .grf-1 img {
+    width: 90px;
+    height: 350px;
+    margin-top: 50px;
+    transform: rotate(-10deg);
+  }
+
+  .grf-2 {
+    width: 80;
+    height: 250px;
+    display: block;
+    position: relative;
+    left: 80px;
+    z-index: 1;
+    margin-top: -20px;
+  }
+
+  .grf-2 img {
+    width: 100px;
+    height: 380px;
+    margin-top: 25px;
+    transform: rotate(-3deg);
+  }
+
+  /* ===================*/
+  #secao-2{
+    width: 400px;
+  }
+  
+  .card-img-overlay {
+    display: none;
+  }
+  
+  .card {
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgba(10,23,55,0.5)
+  }
+
+  .card-img {
+    display: none;
+  }
+
+  .card-img-sm {
+    display: block;
+  }
+
+  .img-sm {
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 120px;
+    margin-top: 10px;
+    z-index: 1;
+  }
+
+  .desc-1 {
+    display: block;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 30px;
+    margin-top: -450px;
+    color: #ffffff;
+    font-size: 17px;
+  }
+
+  .desc-2 {
+    display: block;
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0,15,32,0.9);
+    font-size: 18px;
+    color: #ffffff;
+    padding: 25px;
+    position: relative;
+    left: 10px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+  }
+
+/* =================== */
+  .box-2 {
+    display: none;
+  }
+  
+  .box-3  {
+    display: none;
+    
+  }
+  
+  .box-4 {
+    display: none;
+  }
+
+/* =================== */
+.secao-4 {
+  width: 500px;
+  height: 400px;
+  }
+
+  .grfs-1 {
+  height: 300px;
+  position: relative;
+  margin-top: -100px;
+  left: 90px;
+  }
+
+  .grfs-2 {
+  height: 320px;
+  position: relative;
+  margin-top: -330px;
+  left: 140px;
+  }
+
+  .grfs-3 {
+  height: 320px;
+  position: relative;
+  margin-top: -380px;
+  left: 200px;
+  }
+
+  .grfs-4 {
+  height: 300px;
+  position: relative;
+  margin-top: -420px;
+  left: 270px;
+  }
+
+  .promocao {
+    position: relative;
+    margin-top: 190px;
+    left: -40px;
+  }
+
+  .promocao p {
+    display: none;
+  }
+
+  .promocao h3 {
+    font-size: 25px;
+  }
+
+  .promocao span {
+    font-weight: 500;
+  }
+
+  .selo-1 {
+    position: relative;
+    left: 310px;
+    margin-top: -510px;
+  }
+  
+  .selo-2 {
+    position: relative;
+    left: 300px;
+    margin-top: -420px;
+  }
+
+  #card-1 {
+    width: 200px;
+    position: relative;
+    left: 15px;
+  }
+
+  #card-2 {
+    position: relative;
+    right: 40px;
+  }
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .geladeira {
+    display: none;
+  }
+
+  .input {
+    display: none;
+  }
+
+  .user {
+    display: none;
+  }
+
+  .cadastro {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+  
+  .navbar-toggler {
+    position: relative;
+    left: 300px;
+  }
+
+  .secao-1 {
+      width: 500px;
+      height: 100%;
+      margin-left: -100px;
+      display: block;
+    }
+    
+  .box-1 img {
+    width: 150px;
+    height: 170px;
+    margin-bottom: 15px;
+    align-items: right;
+    margin-bottom: 120px;
+    position: relative;
+    left: 100px;
+    margin-top: 80px;
+  }
+  
+  .box-1 h5 {
+    font-size: 25px;
+    text-align: center;
+  }
+    
+  .grf-1 {
+    width: 60px;
+    height: 250px;
+    display: block;
+    position: relative;
+    left: 120px;
+    z-index: 1;
+    margin-top: -30px;
+  }
+  .grf-1 img {
+    width: 90px;
+    height: 350px;
+    margin-top: 50px;
+    transform: rotate(-10deg);
+  }
+  
+  .grf-2 {
+    width: 80;
+    height: 250px;
+    display: block;
+    position: relative;
+    left: 120px;
+    z-index: 1;
+    margin-top: -20px;
+  }
+  
+  .grf-2 img {
+    width: 100px;
+    height: 380px;
+    margin-top: 25px;
+    transform: rotate(-3deg);
+  }
+    /* ===================*/
+    #secao-2{
+      width: 500px;
+      height: 800px;
+      margin-top: -5px;
+    }
+    
+    .card-img-overlay {
+      display: none;
+    }
+    
+    .card {
+      border: none;
+      width: 100%;
+      height: 100%;
+      margin: 0px auto;
+      background-color: rgba(10,23,55,0.5)
+    }
+  
+    .card-img {
+      display: none;
+    }
+  
+    .card-img-sm {
+      display: block;
+    }
+  
+    .img-sm {
+      display: block;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 150px;
+      margin-top: -35px;
+      z-index: 1;
+    }
+  
+    .desc-1 {
+      display: block;
+      width: 400px;
+      height: 300px;
+      position: relative;
+      left: 70px;
+      margin-top: -495px;
+      color: #ffffff;
+      font-size: 20px;
+    }
+  
+    .desc-2 {
+      display: block;
+      width: 300px;
+      height: 300px;
+      background-color: rgba(0,15,32,0.9);
+      font-size: 18px;
+      color: #ffffff;
+      padding: 25px;
+      position: relative;
+      left: 100px;
+      margin-top: 180px;
+      margin-bottom: 20px;
+    }
+  
+  /* =================== */
+    .box-2 {
+      display: none;
+    }
+    
+    .box-3  {
+      display: none;
+      
+    }
+    
+    .box-4 {
+      display: none;
+    }
+  
+  /* =================== */
+  .secao-4 {
+  width: 500px;
+  height: 400px;
+  }
+
+  .grfs-1 {
+  height: 300px;
+  position: relative;
+  margin-top: -150px;
+  left: 110px;
+  }
+
+  .grfs-2 {
+  height: 320px;
+  position: relative;
+  margin-top: -150px;
+  left: 100px;
+  }
+
+  .grfs-3 {
+  height: 320px;
+  position: relative;
+  margin-top: -350px;
+  left: 250px;
+  }
+
+  .grfs-4 {
+  height: 300px;
+  position: relative;
+  margin-top: -350px;
+  left: 240px;
+  }
+
+  .promocao {
+    position: relative;
+    margin-top: 190px;
+    left: -80px;
+  }
+
+  .promocao p {
+    display: none;
+  }
+
+  .promocao h3 {
+    font-size: 25px;
+  }
+
+  .promocao span {
+    font-weight: 500;
+  }
+
+  .selo-1 {
+    position: relative;
+    left: 360px;
+    margin-top: -500px;
+  }
+  
+  .selo-2 {
+    position: relative;
+    left: 280px;
+    margin-top: -370px;
+  }
+
+  #card-1 {
+    width: 200px;
+    position: relative;
+    left: -20px;
+  }
+
+  #card-2 {
+    position: relative;
+    right: -20px;
+  }
+   
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .geladeira {
+    display: none;
+  }
+
+  .input {
+    display: none;
+  }
+
+  .user {
+    display: none;
+  }
+
+  .cadastro {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .jumbo-bg-1 {
+    background-image: url(./bg-secao-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .secao-1 {
+    width: 500px;
+    height: 100%;
+    margin-left: -100px;
+    display: block;
+  
+  }
+  
+  .box-1 img {
+    width: 150px;
+    height: 170px;
+    margin-bottom: 15px;
+    align-items: right;
+    margin-bottom: 120px;
+    position: relative;
+    left: 100px;
+    margin-top: 80px;
+  }
+  
+  .box-1 h5 {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .btn {
+    width: 230px;
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: white;
+    color: red;
+    border: 1px solid red;
+  }
+  
+  .grf-1 {
+    width: 60px;
+    height: 250px;
+    display: block;
+    position: relative;
+    left: 120px;
+    z-index: 1;
+    margin-top: -30px;
+  }
+  .grf-1 img {
+    width: 90px;
+    height: 350px;
+    margin-top: 50px;
+    transform: rotate(-10deg);
+  }
+  
+  .grf-2 {
+    width: 80;
+    height: 250px;
+    display: block;
+    position: relative;
+    left: 120px;
+    z-index: 1;
+    margin-top: -20px;
+  }
+  
+  .grf-2 img {
+    width: 100px;
+    height: 380px;
+    margin-top: 25px;
+    transform: rotate(-3deg);
+  }
+  /* ===================*/
+  #secao-2{
+    width: 500px;
+    height: 800px;
+    margin-top: -5px;
+  }
+  
+  .card-img-overlay {
+    display: none;
+  }
+  
+  .card {
+    border: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgba(10,23,55,0.5)
+  }
+
+  .card-img {
+    display: none;
+  }
+
+  .card-img-sm {
+    display: block;
+  }
+
+  .img-sm {
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 350px;
+    margin-top: -35px;
+    z-index: 1;
+  }
+
+  .desc-1 {
+    display: block;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 150px;
+    margin-top: -495px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .desc-2 {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0,15,32,0.9);
+    font-size: 18px;
+    color: #ffffff;
+    padding: 25px;
+    position: relative;
+    left: 200px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+  }
+
+/* =================== */
+  .box-2 {
+    display: none;
+  }
+  
+  .box-3  {
+    display: none;
+    
+  }
+  
+  .box-4 {
+    display: none;
+  }
+
+/* =================== */
+  .secao-4 {
+  width: 600px;
+  height: 230px;
+  }
+
+  .grfs-1 {
+  height: 300px;
+  position: relative;
+  margin-top: -50px;
+  left: 10px;
+  
+  }
+
+  .grfs-2 {
+  height: 320px;
+  position: relative;
+  margin-top: -50px;
+  left: 1px;
+  }
+
+  .grfs-3 {
+  height: 320px;
+  position: relative;
+  margin-top: -50px;
+  left: -10px;
+  }
+
+  .grfs-4 {
+  height: 300px;
+  position: relative;
+  margin-top: -340px;
+  left: 220px;
+  }
+
+  .promocao {
+    margin-top: -30px;
+  }
+
+  .promocao p {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .promocao h3 {
+    font-size: 18px;
+  }
+
+  .selo-1 {
+    position: relative;
+    left: 160px;
+    margin-top: -430px;
+  }
+  
+  .selo-2 {
+    position: relative;
+    left: 90px;
+    margin-top: -300px;
+  }
+
+  /* =================== */
+  #card-1 {
+    width: 200px;
+    position: relative;
+    left: -100px;
+  }
+
+  #card-2 {
+    position: relative;
+    right: -100px;
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .geladeira {
+    display: none;
+  }
+
+  .input {
+    display: none;
+  }
+
+
+  .login {
+    display: none;
+  }
+  
+  .box-2 {
+      left: 40px;
+  }
+
+  .box-3  {
+      left: 100px;
+      
+  }
+
+  .box-4 {
+      left: 30px;
+  }
+}
